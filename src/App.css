@@ -378,11 +378,9 @@ input[type="radio"]{
 .App div div div div .gm-style div div .gmnoprint.gm-style-cc div a {
     display: none;
 }
-/*.App div div div div .gm-style div div .gmnoprint.gm-style-cc div span {
-    display: none;
+/*.App div div div div .gm-style div:nth-child(17) {
+    display: none !important;
 }
-
-
 */
 @media (max-width: 400px){
     .mobileColum{

@@ -28,6 +28,8 @@ const Detail = (props) => {
         <div className='datailContainer'>
             { data && (
                 <>
+                    <TabBar scrollTop={scrollTop} />
+                    <DataDrivenDisplay data={data} onScroll={handleScroll} />
                     <div className='itemHeader'>
                         <img src='/logo.png' className='modalLogo' alt=''/>
                         <div className='itemAction'>
@@ -78,8 +80,6 @@ const Detail = (props) => {
                             </div>
                         </div>
 
-                        <TabBar scrollTop={scrollTop} />
-                        <DataDrivenDisplay data={data} onScroll={handleScroll} />
                     </div>
                 </>
               )
