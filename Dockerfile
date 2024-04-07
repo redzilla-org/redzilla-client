@@ -1,4 +1,5 @@
 FROM node:14
+#RUN npm install -g npm@latest
 
 COPY . /build
 WORKDIR /build/client
